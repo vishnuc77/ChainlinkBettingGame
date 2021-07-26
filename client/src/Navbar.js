@@ -13,7 +13,7 @@ class Navbar extends Component {
           rel="noopener noreferrer"
         >
         <img src={dice_logo} height="32" alt="logo" />
-          Betting Game
+          Chainlink Betting Game
         </a>
         {!this.props.account ? <div id="loader" className="spinner-border text-light" role="status"></div> :
           <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
